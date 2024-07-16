@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="12july2.css">
+<title>16 July Progress</title>
+<link rel="icon" type="image/x-icon" href="favicon(1).ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+</head>
+<body>
+  <div class="container">
+  <h1>CSS Practices</h1>
+     <p>A summary examples of things I have learned on 12 July</p>  
+    
+  <h2 style="clear:right">Use Example of Clearfix</h2>
+    
+    <div id="ilk-div" class="clearfix">
+      <img class="img2" src="f75f4591fd90b96a79c61063eb7eea39.jpg" alt="911rwb" width="150">
+      The engineers knew exactly what their objective was: to make the new 911 GT2 RS the most powerful Porsche for the road.
+      Objective achieved. The water-cooled six-cylinder bi-turbo Boxer engine with four-valve technology, 
+      variable turbine geometry (VTG) and VarioCam Plus delivers its power through the rear axle. From a displacement of 
+      3,600 cm3, it generates an enormous 456 kW (620 hp) at an engine speed of 6,500 rpm. The maximum torque of 
+      700 Nm is available from 2,250 rpm. From 0 to 100 km/h (62 mph) takes just 3.5 seconds.
+      To 200 km/h (124 mph) only 9.8 seconds, and to 300 km/h (186 mph) just 28.9 seconds. 
+      Maximum boost pressure is not reached until a speed of 330 km/h (205 mph). The weight-to-power ratio 
+      that is essential for this kind of performance is just 2.21 kg/hp. A consistent supply of oil to the 
+      engine – even at high cornering speeds – is achieved using a dry sump lubrication system with 
+      a separate engine oil reservoir. The oil is cooled by an oil-water heat exchanger.
+    </div>
+
+  <h2>The Display Property Example</h2>
+
+   <h3>display: inline</h3>
+    <div><span class="a">RWB</span> <span class="a">RAUH-Welt BEGRIFF</span> is a Porsche tuner located in Japan. </div>
+   <h3>display: inline-block</h3>
+    <div><span class="b">RWB</span> <span class="b">RAUH-Welt BEGRIFF</span> is a Porsche tuner located in Japan. </div>
+   <h3>display: block</h3>
+    <div> <span class="c">RWB</span> <span class="c">RAUH-Welt BEGRIFF</span> is a Porsche tuner located in Japan. </div>
+
+  <h2>Focus Pseudo-class</h2>
+
+  <form method="get" style="text-align: center; margin: 20px;">
+    <label for="fname" style="display: inline-block; width: 100px; text-align: right;">First name:</label>
+    <input type="text" id="fname" name="fname" style="margin-left: 10px; padding: 5px; border: 1px solid #ccc; border-radius: 4px;"><br><br>
+    <label for="lname" style="display: inline-block; width: 100px; text-align: right;">Last name:</label>
+    <input type="text" id="lname" name="lname" style="margin-left: 10px; padding: 5px; border: 1px solid #ccc; border-radius: 4px;"><br><br>
+    <input type="submit" style="background-color: #1d75cd; color:#fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;" value="Submit">
+  </form>
+  
+
+ <p class="intro">Starting off as a small countryside body-shop in Chiba-Ken,</p>
+ <p>RAUH-Welt 911’s are now a common sight on both the streets and racing circuits of Japan.</p>
+
+ <h2>Image Transparency</h2>
+<img class="img3" src="img1.png" alt="Porsche Black" width="270">
+<img class="img3" src="img2.png" alt="Porsche Blue" width="270">
+<img class="img3" src="img3.png" alt="Porsche Purple" width="270">
+
+  <h2>Responsive Image Gallery</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="imgs1.png">
+      <img src="imgs1.png" alt="Hyperspace" width="600">
+    </a>
+    <div class="desc">Spaceship going into wormhole</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="imgs2.png">
+      <img src="imgs2.png" alt="Spaceship cementery" width="600">
+    </a>
+    <div class="desc">Spaceship junk yard</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="imgs3.png">
+      <img src="imgs3.png" alt="Astronot" width="600">
+    </a>
+    <div class="desc">An Astronout</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="imgs4.png">
+      <img src="imgs4.png" alt="Spaceship" width="600">
+    </a>
+    <div class="desc">Spaceship under a starry sundown</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+<div style="padding:6px;">
+</div>
+
+<h2>Dropdown Image</h2>
+
+<div class="dropdown">
+  <img src="img4.png" alt="Vettel" width="100">
+  <div class="dropdown-content">
+  <img src="img4.png" alt="Vettel" width="600">
+  <div class="desc">Sebastian Vettel's last ever donut</div>
+  </div>
+</div>
+
+<h2>Dropdown Menu</h2>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+
+  <h2>Animate width of search input</h2>
+
+<form>
+  <input type="text" class="search-bar" name="search" placeholder="Search..">
+</form>
+
+<h2>Insert a string between different levels of nested counters</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Green Tea</li>
+      <li>Black Tea</li>
+      <li>Herbal Tea
+        <ol>
+          <li>Chamomile</li>
+          <li>Mint</li>
+          <li>Rooibos</li>
+        </ol>
+      </li>
+      <li>Oolong Tea</li>
+    </ol>
+  </li>
+  <li>Turnip</li>
+  <li>Milk</li>
+</ol>
+</div>
+</body>
+</html>
